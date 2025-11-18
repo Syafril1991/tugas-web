@@ -23,5 +23,6 @@ class DatabaseSeeder extends Seeder
             PublisherSeeder::class,
             BookSeeder::class,
         ]);
+        $this->call(AdminSeeder::class);
     }
 }
